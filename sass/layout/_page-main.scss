@@ -20,7 +20,7 @@
 .main-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .form-title {
@@ -38,13 +38,21 @@
   background-color: #343b4d;
 }
 
-.main-question-text {
-}
-
-.main-question-ansver {
+.main-ansver {
   display: flex;
   justify-content: space-around;
   padding-top: 25px;
   padding-bottom: 17px;
   background-color: #f3f4f8;
+  margin-bottom: 15px;
+}
+
+.main-ansver-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+
+  color: #000000;
 }

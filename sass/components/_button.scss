@@ -1,4 +1,5 @@
 .button {
+  margin: 0 auto;
   display: flex;
   width: 186px;
   height: 45px;
@@ -10,13 +11,18 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.57;
-  color: $secondary-text-color;
-  background-color: $accent-color;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #315dfa;
   border: none;
   cursor: pointer;
 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #355adf;
+  }
   @media screen and (min-width: 480px) {
     width: 200px;
     height: 50px;
