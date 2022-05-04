@@ -37,24 +37,27 @@
             <p class="form-title">Укажите свой пол:</p>
           </div>
           <div class="main-ansver">
-            <label>
+            <div>
               <input
-                class="main-ansver-text"
+                class="form-input"
                 type="radio"
                 name="sex"
                 value="women"
+                id="women"
               />
-              Женщина
-            </label>
-            <label>
+              <label class="main-ansver-text" for="women"> Женщина </label>
+            </div>
+
+            <div>
               <input
-                class="main-ansver-text"
+                class="form-input"
                 type="radio"
                 name="sex"
                 value="men"
+                id="men"
               />
-              Мужчина
-            </label>
+              <label class="main-ansver-text" for="men">Мужчина </label>
+            </div>
           </div>
           <button type="submit" class="button">Далее</button>
         </form>

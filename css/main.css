@@ -200,6 +200,10 @@ textarea {
   color: #000000;
 }
 
+.form-input:checked + .main-ansver-text {
+  color: #315dfa;
+}
+
 .footer-content {
   display: -webkit-box;
   display: -ms-flexbox;
