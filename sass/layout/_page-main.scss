@@ -1,0 +1,50 @@
+.main-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.29;
+  color: #315df9;
+}
+
+.main-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #343b4d;
+  margin-bottom: 10px;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-title {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  background-color: #343b4d;
+  color: #ffffff;
+}
+
+.main-question {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  background-color: #343b4d;
+}
+
+.main-question-text {
+}
+
+.main-question-ansver {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 17px;
+  background-color: #f3f4f8;
+}

@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="body">
     <header class="header">
@@ -31,9 +31,23 @@
           очень скоро обретут долгожданное счастье! 2021 год затронет своими
           потрясениями каждого из нас.
         </p>
-        <p>Укажите свой пол:</p>
-        <p class="main-text">Женщина</p>
-        <p class="main-text">Мужчина</p>
+
+        <form>
+          <div class="main-question">
+            <p class="form-title">Укажите свой пол:</p>
+          </div>
+          <div class="main-question-ansver">
+            <label>
+              <input type="radio" name="color" value="women" />
+              Женщина
+            </label>
+            <label>
+              <input type="radio" name="color" value="men" />
+              Мужчина
+            </label>
+          </div>
+        </form>
+
         <button>Далее</button>
       </div>
     </main>
