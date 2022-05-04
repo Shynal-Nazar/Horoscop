@@ -160,35 +160,47 @@ textarea {
           align-items: center;
 }
 
+.main-question {
+  background-color: #343b4d;
+}
+
 .form-title {
   padding-top: 16px;
   padding-bottom: 8px;
   background-color: #343b4d;
   color: #ffffff;
+  text-align: center;
 }
 
-.main-question {
+.progres {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 10px;
+  border-radius: 0%;
+  background-color: #b53e42;
+}
+
+.ansver-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 16px;
-  padding-bottom: 8px;
-  background-color: #343b4d;
-}
-
-.main-ansver {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   padding-top: 25px;
   padding-bottom: 17px;
   background-color: #f3f4f8;
   margin-bottom: 15px;
+}
+
+.main-ansver-row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-ansver-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main-ansver-text {
